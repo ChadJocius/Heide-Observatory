@@ -7,7 +7,7 @@
 * [Eular's Disk](eulars-disk.md)
 * [Spinning Platform](spinning-platform.md)
 * [Tetherball](tetherball.md)
-* [Solar System Marbles](solar-system-marbles.md)
+* [Solar System Marble Table](solar-system-marble-table.md)
 * [Air Rockets](air-rockets.md)
 * [Walking the Solar System](walking-solar-system.md)
 * [The Moon Model](moon-model.md)
