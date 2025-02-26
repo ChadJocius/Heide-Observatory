@@ -1,4 +1,5 @@
 # Double Pendulum
 
 ![Double Pendulum](doublepen.jpg)
-![Double Pendulum](doublepenvid.mp4)
+![Double Pendulum](double-pen2.jpg)
+
