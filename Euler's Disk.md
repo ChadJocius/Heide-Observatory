@@ -1,2 +1,2 @@
 # Eular's Disk
-![Eular's Disk](eularsdisk.jpg)
+![Eular's Disk](eulersdisk.jpg)
