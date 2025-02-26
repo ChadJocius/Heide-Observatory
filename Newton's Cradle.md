@@ -1,5 +1,5 @@
 # Newton's Cradle
 ![Newton's Cradle](Newton's-cradle.jpg)
 ## Objective
-Newton’s Cradle consists of a series of five or more metal balls of equal size, suspended in a row by thin wires or strings. When one or more balls on one side are lifted and released, they swing back down and transfer their energy through the stationary balls, causing the balls on the opposite side to move outward in response.
+The Newton’s Cradle Model visually demonstrates the principles of momentum conservation and energy transfer through a series of swinging spheres or marbles. When one or more spheres are lifted and released, their energy is transferred through the stationary spheres, propelling an equal number on the opposite end. This interactive model helps illustrate Newton’s Third Law of Motion—"for every action, there is an equal and opposite reaction"—while also showcasing concepts like elastic collisions and wave propagation, making it an engaging tool for exploring the fundamentals of physics.
 
