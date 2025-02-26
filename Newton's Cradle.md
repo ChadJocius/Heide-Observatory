@@ -1,2 +1,2 @@
 # Newton's Cradle
-![Newton's Cradle](newton's-cradle.jpg)
+![Newton's Cradle](Newton's-cradle.jpg)
