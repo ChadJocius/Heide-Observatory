@@ -1,13 +1,13 @@
 
 # Interactive exhibits at The Heide Observatory
-* [Double Pendulum](doublepen.md)
-* [Gravity Well](Gravity-Well.md)
+* [Double Pendulum](double-pendulum.md)
+* [Gravity Well](gravity-well.md)
 * [Newton's Wave Pendulum](wave-pendulum.md)
 * [Newton's Cradle](newtons-cradle.md)
-* [Eular's Disk](eulars-disk.md)
+* [Eular's Disk](eulers-disk.md)
 * [Spinning Platform](spinning-platform.md)
 * [Tetherball](tetherball.md)
-* [Solar System Marble Table](solar-system-marble-table.md)
+* [Solar System Marble Table](solar-system-table.md)
 * [Air Rockets](air-rockets.md)
 * [Walking the Solar System](walking-solar-system.md)
 * [The Moon Model](moon-model.md)
