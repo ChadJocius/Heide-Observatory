@@ -4,7 +4,7 @@
 * [Gravity Well](gravity-well.md)
 * [Newton's Wave Pendulum](wave-pendulum.md)
 * [Newton's Cradle](newtons-cradle.md)
-* [Eular's Disk](eulers-disk.md)
+* [Euler's Disk](eulers-disk.md)
 * [Spinning Platform](spinning-platform.md)
 * [Tetherball](tetherball.md)
 * [Solar System Marble Table](solar-system-table.md)
