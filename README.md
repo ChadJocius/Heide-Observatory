@@ -16,12 +16,15 @@
 * [Mission Lander](mission-lander.md)
 * [Balloon Drop](balloon-drop.md)
 * [Inertia Beads](inertia-beads.md)
-* [Chemical Rocket Launh](chemical-rockets.md)
+* [Chemical Rocket Launch](chemical-rockets.md)
 * [Exploring Light with Lasers](laser-light.md)
 * [Exploring Sound](exploring-sound.md)
 * [Speed Distance and Measurement](speed-distance.md)
 * [Stellar Life Cycle](stellar-life-cycle.md)
 * [Moon Balls](moon-balls.md)
 * [Exoplanet Creations](exoplanet-creations.md)
-* 
+* [Ball Launcher](ball-launcher.md)
+* [Piece It Together](piece-it-together.md)
+* [Balancing Act](balancing-act.md)
+  
 
