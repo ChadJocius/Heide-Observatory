@@ -12,12 +12,13 @@
 ## Solar System
 - [Solar System Marble Table](descriptions/solar-system-table.md)  
 - [Walking the Solar System](descriptions/walking-the-solar-system.md)
-- [Planet Diameter Scale Model](descriptions/planet-diameters.md)
 
 ---
 
 ## Planets
-- [Exoplanet Creations](descriptions/exoplanet-creations.md)  
+- [Planet Diameter Scale Model](descriptions/planet-diameters.md)
+- [Planetary Transit Model](descriptions/planetary-transit.md)
+- [Exoplanet Creations](descriptions/exoplanet-creations.md)
 
 ---
 
@@ -27,9 +28,9 @@
 ---
 
 ## Motion
-- [Inertia Beads](descriptions/inertia-beads.md)  
-- [Speed Distance and Measurement](descriptions/speed-distance.md)  
-- [Ball Launcher](descriptions/ball-launcher.md)  
+- [Speed, Distance, and Time](descriptions/speed-distance.md)  
+- [Ball Launcher](descriptions/ball-launcher.md)
+- [Inertia Beads](descriptions/inertia-beads.md)
 
 ---
 
@@ -41,9 +42,9 @@
 ---
 
 ## Oscillation
-- [Double Pendulum](descriptions/double-pendulum.md)  
-- [Newton's Wave Pendulum](descriptions/newtons-wave-pendulum.md)  
 - [Newton's Cradle](descriptions/newtons-cradle.md)  
+- [Newton's Wave Pendulum](descriptions/newtons-wave-pendulum.md)  
+- [Double Pendulum](descriptions/double-pendulum.md)
 
 ---
 
