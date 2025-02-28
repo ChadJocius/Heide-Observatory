@@ -2,7 +2,7 @@
 # Interactive exhibits at The Heide Observatory
 * [Double Pendulum](double-pendulum.md)
 * [Gravity Well](gravity-well.md)
-* [Newton's Wave Pendulum](wave-pendulum.md)
+* [Newton's Wave Pendulum](newtons-wave-pendulum.md)
 * [Newton's Cradle](newtons-cradle.md)
 * [Euler's Disk](eulers-disk.md)
 * [Spinning Platform](spinning-platform.md)
