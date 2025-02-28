@@ -21,7 +21,7 @@
 * [Exploring Sound](exploring-sound.md)
 * [Speed Distance and Measurement](speed-distance.md)
 * [Stellar Life Cycle](stellar-life-cycle.md)
-* [Moon Balls](moon-balls.md)
+* [Moon Ball](moon-ball.md)
 * [Exoplanet Creations](exoplanet-creations.md)
 * [Ball Launcher](ball-launcher.md)
 * [Piece It Together](piece-it-together.md)
