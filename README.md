@@ -65,7 +65,7 @@
 
 ---
 
-### **Rocketry**
+### **Astronautics**
 - [Air Rockets](descriptions/air-rockets.md)  
 - [Mission Lander](descriptions/mission-lander.md)  
 - [Chemical Rocket Launch](descriptions/chemical-rockets.md)  
