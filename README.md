@@ -12,7 +12,7 @@
 
 ### **Solar System**
 - [Solar System Marble Table](descriptions/solar-system-table.md)  
-- [Walking the Solar System](descriptions/balloon-drop)  
+- [Walking the Solar System](descriptions/walking-the-solar-system.md)  
 
 ---
 
