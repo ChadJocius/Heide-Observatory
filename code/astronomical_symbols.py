@@ -1,53 +1,38 @@
-import requests
-from bs4 import BeautifulSoup
-from PIL import Image
-from io import BytesIO
-import os
+import matplotlib.pyplot as plt
 
-# Constants
-DPI = 300
-INCH = 3
-SYMBOL_SIZE = DPI * INCH  # 3 inches at 300 DPI
-PLANETS = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Ceres", "Pluto"]
-OUTPUT_FILE = "planet_symbols_grid.png"
+# Planet symbols with names
+planet_symbols = [
+    ('Mercury', '\u263f'),
+    ('Venus', '\u2640'),
+    ('Earth', '\u2295'),
+    ('Mars', '\u2642'),
+    ('Jupiter', '\u2643'),
+    ('Saturn', '\u2644'),
+    ('Uranus', '\u26e2'),
+    ('Neptune', '\u2646'),
+    ('Pluto', '\u2647'),
+    ('Ceres', '\u26b3'),
+]
 
-# Scrape symbols from Wikipedia page
-URL = "https://en.wikipedia.org/wiki/Astronomical_symbol"
-response = requests.get(URL)
-soup = BeautifulSoup(response.content, "html.parser")
+# Create a figure
+fig, ax = plt.subplots(figsize=(8, 5))
+ax.axis('off')  # Hide axes
 
-# Find image URLs
-symbols = {}
-for name in PLANETS:
-    img_tag = soup.find("img", alt=lambda alt: alt and name in alt)
-    if img_tag:
-        img_url = "https:" + img_tag["src"]
-        symbols[name] = img_url
+# Plot each symbol in a grid
+n_cols = 5
+for i, (name, symbol) in enumerate(planet_symbols):
+    row = i // n_cols
+    col = i % n_cols
+    x = col
+    y = -row  # invert for top-down order
+    ax.text(x, y, symbol, fontsize=50, ha='center', va='center')
+    # ax.text(x, y - 0.4, name, fontsize=12, ha='center', va='top')
 
-# Download and resize images
-images = []
-for name in PLANETS:
-    if name in symbols:
-        img_response = requests.get(symbols[name])
-        img = Image.open(BytesIO(img_response.content)).convert("RGBA")
-        img = img.resize((SYMBOL_SIZE, SYMBOL_SIZE), Image.LANCZOS)
-        images.append((name, img))
-    else:
-        print(f"Symbol for {name} not found.")
+# Adjust plot limits
+ax.set_xlim(-0.5, n_cols - 0.5)
+ax.set_ylim(-2, 1)
 
-# Create a blank white canvas (grid: 5 x 2 layout)
-cols = 5
-rows = 2
-canvas_width = cols * SYMBOL_SIZE
-canvas_height = rows * SYMBOL_SIZE
-canvas = Image.new("RGBA", (canvas_width, canvas_height), (255, 255, 255, 0))
-
-# Paste symbols on the canvas
-for i, (name, img) in enumerate(images):
-    x = (i % cols) * SYMBOL_SIZE
-    y = (i // cols) * SYMBOL_SIZE
-    canvas.paste(img, (x, y), mask=img)
-
-# Save the final image
-canvas.save(OUTPUT_FILE)
-print(f"Saved {OUTPUT_FILE}")
+# Save to file
+plt.tight_layout()
+plt.savefig('planet_symbols.png', dpi=300)
+plt.show()
