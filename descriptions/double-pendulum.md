@@ -1,6 +1,6 @@
 # Double Pendulum
 
-![Double Pendulum](../images/double-pendulum-glowing.jpg)
+![Double Pendulum](../images/double-pendulum-glowing.jpg) 
 ![Double Pendulum](../images/double-pendulum-plain.jpg)
 
 ## Objective
